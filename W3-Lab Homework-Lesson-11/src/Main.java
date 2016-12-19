@@ -34,9 +34,10 @@ public class Main {
 			System.out.println(courses.toString());
 
 		}
-		
-	
-		System.out.println(hmap.toString());
+		// find Size of HashMap
+		System.out.println("Size of Hash map is : " + hmap.size());
+		// Display all Value in hashMap
+		System.out.println("Data in Hash map is \n" + hmap.values().toString());
 
 	}
 
