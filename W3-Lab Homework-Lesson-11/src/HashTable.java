@@ -8,7 +8,7 @@ public HashTable(int size)       // constructor
  {
  arraySize = size;
  hashArray = new PersonItem[arraySize];
- nonItem = new PersonItem("null","null");   // deleted item key is -1
+ nonItem = new PersonItem("a","null");   // deleted item key is -1
  }
 //-------------------------------------------------------------
 public void displayTable()
